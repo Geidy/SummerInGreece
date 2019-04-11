@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="fun.css">
+
+    <title>Students @funTimes</title>
+  </head>
+  <body>
+    <header>
+           <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Study Abroad, Greece</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="geologicalwonders.html">Geological Wonders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="cretanhist.html">Cretan History</a>
+        </li>
+         <li class="nav-item active">
+          <a class="nav-link" href="#">Students @funTimes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="travel.html">Leisure & Travel</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <hr>
+ <!-- <div class="video-header wrap">
+    <div class="fullscreen-video-wrap"></div>
+    <video src="video/matala1.mp4" autoplay="loop" controls=""> ></video>
+  </div>
+  <div class="header-overlay">
+    <div class="header-content">
+      <h1>Matala</h1>
+    </div>
+  </div> -->
+  <div class="video-header">
+  <div class="card mb-3">
+  <video controls="" source src="video/matala3.mp4"  type="video/mp4" class="card-img-top" alt="..."
+   width="50%" height="50%">
+  </video>
+  <div class="card-body">
+    <h1 class="card-title text-center">Matala</h1>
+    <p class="text-center">Matala is a music festival. It have been the home of multiple locals and international artist to play, enjoy and share their love for music. In fact, it is like the European Coachela. It's the Greek Coachela. "Greece's Beach Festival".</p>
+       <p class="text-center"> The festival is very famous in Europe and it was a pioneer music festival. The people, the music , the environment, their restaurant, caffees, culture and souvenirs shops made it a most see attraction, when in Greece. It's a bucket list adventure. Where you can dance from sunrise to sunset, taste the amazing greek deliciousness, have fun and make new friends exploring new cultures.</p> 
+  </div>
+</div>
+</div>
+          
+</header>
+
+<section class="img-galery">
+  <h2 style="text-align:center">Matala Gallery</h2>
+  <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="img/tree.jpg" style="width: 100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="img/mat2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="img/car.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="img/mat31.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="img/mat4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="img/mat5.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text 
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/tree.jpg" style="width:100%" onclick="currentSlide(1)" alt="Matala icon tree">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/mat2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Matala design art">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/car.jpg" style="width:100%" onclick="currentSlide(3)" alt="Car">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/mat3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Friends having fun">
+      <img class="demo cursor" src="img/mat3.jpg" style="width:100%" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/mat4.jpg" style="width:100%" onclick="currentSlide(5)" 
+      alt="Electro-music Vibes">
+    </div> 
+    <div class="column">
+      <img class="demo cursor" src="img/mat5.jpg" style="width:100%" onclick="currentSlide(6)" alt="Beach festival Vibes">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+  
+</section>
+
+<hr>
+
+<footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; Summer-2018 Crete-Greece, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+</html>

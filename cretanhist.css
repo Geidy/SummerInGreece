@@ -1,0 +1,36 @@
+
+.jumbotron {
+  padding-top: 20rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #edcbb1;
+  background-image: url('img/greektable1.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.album{
+  background-color: #d6c7a0; 
+
+}
+
