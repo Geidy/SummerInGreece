@@ -92,8 +92,8 @@ body {
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
-    line-height: 1.4;
-    color: green;
+    line-height: 2.5;
+    color: rgb(243, 243, 243);
     font-style: italic;
     font-weight: bold;
   }
