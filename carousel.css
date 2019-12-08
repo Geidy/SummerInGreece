@@ -29,13 +29,11 @@ body {
   height: 32rem;
 }
 .carousel-item > img {
-  //position: absolute;
-  //top: 0;
-  //left: 0;
-  max-width: 99vw !important;
-  max-height: 99vh !important;
-  //margin: auto; 
- //display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
 
 }
 .jumbotron {
